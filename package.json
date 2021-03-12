@@ -7,6 +7,7 @@
   "dependencies": {
     "@tabler/core": "^1.0.0-beta",
     "next": "^10.0.8",
+    "pm2": "^4.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
