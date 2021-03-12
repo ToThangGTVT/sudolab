@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -P 80"
   },
   "dependencies": {
     "@tabler/core": "^1.0.0-beta",
