@@ -5,6 +5,7 @@ import NewPost from "../component/table/new-post";
 import Card from "../component/card/card";
 import Carosel from "../component/carosel/carosel";
 import Categories from "../component/categories/categories";
+import Content from "../component/content/content";
 
 export default class Index extends React.Component {
 
@@ -16,7 +17,7 @@ export default class Index extends React.Component {
           <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta/dist/css/tabler.min.css" />
         </Head>
         <Navbar></Navbar>
-        <div className="container">
+        <div className="container pb-5">
           <div className="row">
             <div className="col-md-4">
               <Carosel></Carosel>
@@ -25,6 +26,17 @@ export default class Index extends React.Component {
               <NewPost></NewPost>
               <Categories></Categories>
             </div>
+          </div>
+          <div className="row">
+            <div className="col-md-8">
+              <h3 className="my-2 mx-2">Danh sách bài viết</h3>
+              <Content></Content>
+            </div>
+            <div className="col-md-4">
+              <h3 className="my-2 mx-2 text-center">Sudolab là gì</h3>
+              <Card></Card>
+            </div>
+
           </div>
         </div>
       </div>

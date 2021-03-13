@@ -2,9 +2,16 @@ import React from "react";
 
 export default class Content extends React.Component {
 
+  styleCard = {
+    borderRadius: "3px",
+    backgroundColor: "white",
+    boxShadow: "rgb(35 46 60 / 4%) 0 2px 4px 0",
+    border: "1px solid rgba(101,109,119,.16)"
+  }
+
   render() {
     return (
-      <div>
+      <div style={this.styleCard}>
         <div class="card-body card-body-scrollable card-body-scrollable-shadow">
           <div class="divide-y-4">
             <div>
@@ -74,7 +81,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/001f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -100,7 +107,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/002f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -113,7 +120,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/003f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -139,7 +146,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/006m.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -152,7 +159,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/004f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -165,7 +172,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/007m.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -191,7 +198,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/009m.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -204,7 +211,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/010m.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -217,7 +224,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/005f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
@@ -230,7 +237,7 @@ export default class Content extends React.Component {
             <div>
               <div class="row">
                 <div class="col-auto">
-                  <span class="avatar" style="background-image: url(./static/avatars/006f.jpg)"></span>
+                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
                 <div class="col">
                   <div class="text-truncate">
