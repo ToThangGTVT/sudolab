@@ -1,5 +1,5 @@
 module.exports = function postRoute(app) {
-  app.route('/post')
+  app.route('/api/post')
     .get(function (req, res) {
       res.send('Hello World!');
     })
