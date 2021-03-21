@@ -24,8 +24,8 @@ export default class Index extends React.Component {
           <title>Sudolab | Java Spring JS và nhiều hơn thế nữa</title>
           <meta property="og:title" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="title" />
           <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
-          <script src="https://unpkg.com/@tabler/core@1.0.0-beta/dist/js/tabler.min.js"></script>
-          <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta/dist/css/tabler.min.css" />
+          <script async src="https://unpkg.com/@tabler/core@1.0.0-beta/dist/js/tabler.min.js"></script>
+          <link async rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta/dist/css/tabler.min.css" />
         </Head>
         <Navbar></Navbar>
         <div className="container pb-5">
