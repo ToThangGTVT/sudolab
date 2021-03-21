@@ -5,7 +5,6 @@ export default class NewPost extends React.Component {
 
   render() {
     const { data } = this.props
-    console.log("🚀 ~ file: new-post.js ~ line 7 ~ NewPost ~ render ~ this", data)
     return (
       <div>
         <div className="card">
