@@ -12,251 +12,251 @@ export default class Content extends React.Component {
   render() {
     return (
       <div style={this.styleCard}>
-        <div class="card-body card-body-scrollable card-body-scrollable-shadow">
-          <div class="divide-y-4">
+        <div className="card-body card-body-scrollable card-body-scrollable-shadow">
+          <div className="divide-y-4">
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar">JL</span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar">JL</span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Jeffie Lewzey</strong> commented on your <strong>"I'm not a witch."</strong> post.
               </div>
-                  <div class="text-muted">yesterday</div>
+                  <div className="text-muted">yesterday</div>
                 </div>
-                <div class="col-auto align-self-center">
-                  <div class="badge bg-primary"></div>
+                <div className="col-auto align-self-center">
+                  <div className="badge bg-primary"></div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar"></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar"></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     It's <strong>Mallory Hulme</strong>'s birthday. Wish him well!
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
-                <div class="col-auto align-self-center">
-                  <div class="badge bg-primary"></div>
+                <div className="col-auto align-self-center">
+                  <div className="badge bg-primary"></div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Dunn Slane</strong> posted <strong>"Well, what do you want?"</strong>.
               </div>
-                  <div class="text-muted">today</div>
+                  <div className="text-muted">today</div>
                 </div>
-                <div class="col-auto align-self-center">
-                  <div class="badge bg-primary"></div>
+                <div className="col-auto align-self-center">
+                  <div className="badge bg-primary"></div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Emmy Levet</strong> created a new project <strong>Morning alarm clock</strong>.
               </div>
-                  <div class="text-muted">4 days ago</div>
+                  <div className="text-muted">4 days ago</div>
                 </div>
-                <div class="col-auto align-self-center">
-                  <div class="badge bg-primary"></div>
+                <div className="col-auto align-self-center">
+                  <div className="badge bg-primary"></div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Maryjo Lebarree</strong> liked your photo.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar">EP</span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar">EP</span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Egan Poetz</strong> registered new client as <strong>Trilia</strong>.
               </div>
-                  <div class="text-muted">yesterday</div>
+                  <div className="text-muted">yesterday</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Kellie Skingley</strong> closed a new deal on project <strong>Pen Pineapple Apple Pen</strong>.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Christabel Charlwood</strong> created a new project for <strong>Wikibox</strong>.
               </div>
-                  <div class="text-muted">4 days ago</div>
+                  <div className="text-muted">4 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar">HS</span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar">HS</span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Haskel Shelper</strong> change status of <strong>Tabler Icons</strong> from <strong>open</strong> to <strong>closed</strong>.
               </div>
-                  <div class="text-muted">today</div>
+                  <div className="text-muted">today</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Lorry Mion</strong> liked <strong>Tabler UI Kit</strong>.
               </div>
-                  <div class="text-muted">yesterday</div>
+                  <div className="text-muted">yesterday</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Leesa Beaty</strong> posted new video.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Perren Keemar</strong> and 3 others followed you.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar">SA</span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar">SA</span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Sunny Airey</strong> upload 3 new photos to category <strong>Inspirations</strong>.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Geoffry Flaunders</strong> made a <strong>$10</strong> donation.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Thatcher Keel</strong> created a profile.
               </div>
-                  <div class="text-muted">3 days ago</div>
+                  <div className="text-muted">3 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Dyann Escala</strong> hosted the event <strong>Tabler UI Birthday</strong>.
               </div>
-                  <div class="text-muted">4 days ago</div>
+                  <div className="text-muted">4 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar" style={{ backgroundImage: "url(https://static.wixstatic.com/media/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.png/v1/fill/w_586,h_507,al_c,q_90,usm_0.66_1.00_0.01/bb1bd6_9c85c6a4692e4a38bae692ba782a816a~mv2.webp)" }}></span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Avivah Mugleston</strong> mentioned you on <strong>Best of 2020</strong>.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>
             <div>
-              <div class="row">
-                <div class="col-auto">
-                  <span class="avatar">AA</span>
+              <div className="row">
+                <div className="col-auto">
+                  <span className="avatar">AA</span>
                 </div>
-                <div class="col">
-                  <div class="text-truncate">
+                <div className="col">
+                  <div className="text-truncate">
                     <strong>Arlie Armstead</strong> sent a Review Request to <strong>Amanda Blake</strong>.
               </div>
-                  <div class="text-muted">2 days ago</div>
+                  <div className="text-muted">2 days ago</div>
                 </div>
               </div>
             </div>

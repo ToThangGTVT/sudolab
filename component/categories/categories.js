@@ -5,24 +5,24 @@ export default class Categories extends React.Component {
   render() {
     return (
       <div>
-        <div class="my-3">
-          <label class="form-label">Different style</label>
-          <div class="form-selectgroup form-selectgroup-pills">
-            <label class="form-selectgroup-item">
-              <input type="checkbox" name="name" value="HTML" class="form-selectgroup-input" checked="" />
-              <span class="form-selectgroup-label">HTML</span>
+        <div className="my-3">
+          <label className="form-label">Different style</label>
+          <div className="form-selectgroup form-selectgroup-pills">
+            <label className="form-selectgroup-item">
+              <input type="checkbox" name="name" value="HTML" className="form-selectgroup-input" defaultChecked />
+              <span className="form-selectgroup-label">HTML</span>
             </label>
-            <label class="form-selectgroup-item">
-              <input type="checkbox" name="name" value="CSS" class="form-selectgroup-input" />
-              <span class="form-selectgroup-label">CSS</span>
+            <label className="form-selectgroup-item">
+              <input type="checkbox" name="name" value="CSS" className="form-selectgroup-input" />
+              <span className="form-selectgroup-label">CSS</span>
             </label>
-            <label class="form-selectgroup-item">
-              <input type="checkbox" name="name" value="PHP" class="form-selectgroup-input" />
-              <span class="form-selectgroup-label">PHP</span>
+            <label className="form-selectgroup-item">
+              <input type="checkbox" name="name" value="PHP" className="form-selectgroup-input" />
+              <span className="form-selectgroup-label">PHP</span>
             </label>
-            <label class="form-selectgroup-item">
-              <input type="checkbox" name="name" value="JavaScript" class="form-selectgroup-input" />
-              <span class="form-selectgroup-label">JavaScript</span>
+            <label className="form-selectgroup-item">
+              <input type="checkbox" name="name" value="JavaScript" className="form-selectgroup-input" />
+              <span className="form-selectgroup-label">JavaScript</span>
             </label>
           </div>
         </div>

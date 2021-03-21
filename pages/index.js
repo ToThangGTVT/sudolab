@@ -8,11 +8,12 @@ import Categories from "../component/categories/categories";
 import Content from "../component/content/content";
 
 import axios from "axios";
+import { API_CONST } from "../component/const/api";
 
 export default class Index extends React.Component {
 
   static async getInitialProps({ req }) {
-    const response = await axios.get('https://sudolab.vn/api/post/new/5');
+    const response = await axios.get(API_CONST + '/post/new/5');
     return { newpost: response.data };
   }
 
@@ -20,6 +21,9 @@ export default class Index extends React.Component {
     return (
       <div>
         <Head>
+          <title>Sudolab | Java Spring JS và nhiều hơn thế nữa</title>
+          <meta property="og:title" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="title" />
+          <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
           <script src="https://unpkg.com/@tabler/core@1.0.0-beta/dist/js/tabler.min.js"></script>
           <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta/dist/css/tabler.min.css" />
         </Head>

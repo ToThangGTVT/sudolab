@@ -17,9 +17,9 @@ export default class NewPost extends React.Component {
     console.log("🚀 ~ file: new-post.js ~ line 7 ~ NewPost ~ render ~ this", data)
     return (
       <div>
-        <div class="card">
-          <div class="table-responsive" style={{ marginBottom: 0 }}>
-            <table class="table table-vcenter card-table table-striped">
+        <div className="card">
+          <div className="table-responsive" style={{ marginBottom: 0 }}>
+            <table className="table table-vcenter card-table table-striped">
               <thead>
                 <tr>
                   <th>#</th>
@@ -33,9 +33,9 @@ export default class NewPost extends React.Component {
                   data.map((val, i) =>
                     <tr key={val.id}>
                       <td>{++i}</td>
-                      <td class="text-muted"><a href="#" class="text-reset">{val.title},</a></td>
-                      <td class="text-muted"><a href="#" class="text-reset">{val.description}</a></td>
-                      <td class="text-muted">{this.formattedDate(val.create_date)}</td>
+                      <td className="text-muted"><a href="#" className="text-reset">{val.title},</a></td>
+                      <td className="text-muted"><a href="#" className="text-reset">{val.description}</a></td>
+                      <td className="text-muted">{this.formattedDate(val.create_date)}</td>
                     </tr>
                   )
                 }
