@@ -13,8 +13,16 @@ import { API_CONST } from "../component/const/api";
 export default class Index extends React.Component {
 
   static async getInitialProps({ req }) {
-    const response = await axios.get(API_CONST + '/post/new/5');
-    return { newpost: response.data };
+
+    const resNewPost = await axios.get(API_CONST + '/post/new/5');
+    const resCategory = await axios.get(API_CONST + '/category/all');
+    const allPostMain = await axios.get(API_CONST + '/post/with-cat');
+
+    return {
+      newpost: resNewPost.data,
+      category: resCategory.data,
+      allPostMain: allPostMain.data
+    };
   }
 
   render() {
@@ -35,13 +43,13 @@ export default class Index extends React.Component {
             </div>
             <div className="col-md-8">
               <NewPost data={this.props.newpost}></NewPost>
-              <Categories></Categories>
+              <Categories data={this.props.category}></Categories>
             </div>
           </div>
           <div className="row">
             <div className="col-md-8">
               <h3 className="my-2 mx-2">Danh sách bài viết</h3>
-              <Content></Content>
+              <Content data={this.props.allPostMain}></Content>
             </div>
             <div className="col-md-4">
               <h3 className="my-2 mx-2 text-center">Sudolab là gì</h3>

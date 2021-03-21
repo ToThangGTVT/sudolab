@@ -1,16 +1,7 @@
 import React from "react";
+import { formatDate } from "../../utils/Utils";
 
 export default class NewPost extends React.Component {
-
-  formattedDate(date) {
-    var todayTime = new Date(date);
-    var month = todayTime.getMonth();
-    if (month < 10) month = '0' + month
-    var day = todayTime.getDate();
-    if (day < 10) day = '0' + day
-    var year = todayTime.getFullYear();
-    return day + "/" + month + "/" + year;
-  }
 
   render() {
     const { data } = this.props
@@ -33,9 +24,9 @@ export default class NewPost extends React.Component {
                   data.map((val, i) =>
                     <tr key={val.id}>
                       <td>{++i}</td>
-                      <td className="text-muted"><a href="#" className="text-reset">{val.title},</a></td>
+                      <td className="text-muted"><a href="#" className="text-reset">{val.title}</a></td>
                       <td className="text-muted"><a href="#" className="text-reset">{val.description}</a></td>
-                      <td className="text-muted">{this.formattedDate(val.create_date)}</td>
+                      <td className="text-muted">{formatDate(val.create_date)}</td>
                     </tr>
                   )
                 }
