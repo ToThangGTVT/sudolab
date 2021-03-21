@@ -2,7 +2,19 @@ import React from "react";
 
 export default class NewPost extends React.Component {
 
+  formattedDate(date) {
+    var todayTime = new Date(date);
+    var month = todayTime.getMonth();
+    if (month < 10) month = '0' + month
+    var day = todayTime.getDate();
+    if (day < 10) day = '0' + day
+    var year = todayTime.getFullYear();
+    return day + "/" + month + "/" + year;
+  }
+
   render() {
+    const { data } = this.props
+    console.log("🚀 ~ file: new-post.js ~ line 7 ~ NewPost ~ render ~ this", data)
     return (
       <div>
         <div class="card">
@@ -10,79 +22,23 @@ export default class NewPost extends React.Component {
             <table class="table table-vcenter card-table table-striped">
               <thead>
                 <tr>
-                  <th>Name</th>
-                  <th>Title</th>
-                  <th>Email</th>
-                  <th>Role</th>
-                  <th class="w-1"></th>
+                  <th>#</th>
+                  <th>Tiêu đề</th>
+                  <th>Nội dung chính</th>
+                  <th>Ngày tạo</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Maryjo Lebarree</td>
-                  <td class="text-muted">
-                    Civil Engineer, Product Management
-              </td>
-                  <td class="text-muted"><a href="#" class="text-reset">mlebarree5@unc.edu</a></td>
-                  <td class="text-muted">
-                    User
-              </td>
-                  <td>
-                    <a href="#">Edit</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Egan Poetz</td>
-                  <td class="text-muted">
-                    Research Nurse, Engineering
-              </td>
-                  <td class="text-muted"><a href="#" class="text-reset">epoetz6@free.fr</a></td>
-                  <td class="text-muted">
-                    Admin
-              </td>
-                  <td>
-                    <a href="#">Edit</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Kellie Skingley</td>
-                  <td class="text-muted">
-                    Teacher, Services
-              </td>
-                  <td class="text-muted"><a href="#" class="text-reset">kskingley7@columbia.edu</a></td>
-                  <td class="text-muted">
-                    User
-              </td>
-                  <td>
-                    <a href="#">Edit</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Christabel Charlwood</td>
-                  <td class="text-muted">
-                    Tax Accountant, Engineering
-              </td>
-                  <td class="text-muted"><a href="#" class="text-reset">ccharlwood8@nifty.com</a></td>
-                  <td class="text-muted">
-                    Owner
-              </td>
-                  <td>
-                    <a href="#">Edit</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Haskel Shelper</td>
-                  <td class="text-muted">
-                    Staff Scientist, Legal
-              </td>
-                  <td class="text-muted"><a href="#" class="text-reset">hshelper9@woothemes.com</a></td>
-                  <td class="text-muted">
-                    Admin
-              </td>
-                  <td>
-                    <a href="#">Edit</a>
-                  </td>
-                </tr>
+                {
+                  data.map((val, i) =>
+                    <tr key={val.id}>
+                      <td>{++i}</td>
+                      <td class="text-muted"><a href="#" class="text-reset">{val.title},</a></td>
+                      <td class="text-muted"><a href="#" class="text-reset">{val.description}</a></td>
+                      <td class="text-muted">{this.formattedDate(val.create_date)}</td>
+                    </tr>
+                  )
+                }
               </tbody>
             </table>
           </div>

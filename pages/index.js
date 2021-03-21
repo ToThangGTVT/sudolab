@@ -7,7 +7,14 @@ import Carosel from "../component/carosel/carosel";
 import Categories from "../component/categories/categories";
 import Content from "../component/content/content";
 
+import axios from "axios";
+
 export default class Index extends React.Component {
+
+  static async getInitialProps({ req }) {
+    const response = await axios.get('https://sudolab.vn/api/post/new/5');
+    return { newpost: response.data };
+  }
 
   render() {
     return (
@@ -23,7 +30,7 @@ export default class Index extends React.Component {
               <Carosel></Carosel>
             </div>
             <div className="col-md-8">
-              <NewPost></NewPost>
+              <NewPost data={this.props.newpost}></NewPost>
               <Categories></Categories>
             </div>
           </div>
