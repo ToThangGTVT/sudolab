@@ -78,7 +78,7 @@ export default class Index extends React.Component {
                   nextLinkClassName={'page-link'}
                   previousClassName={'page-item'}
                   previousLinkClassName={'page-link'}
-                  
+                  forcePage={store2.get('page')}
                 />
               </div>
             </div>
