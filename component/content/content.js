@@ -28,14 +28,14 @@ export default class Content extends React.Component {
                     <span className="avatar">{val.title.substring(0, 2)}</span>
                   </div>
                   <div className="col">
-                    <a className="text-reset" href="#">
+                    <a className="text-reset" href={'/blog/' + val.link}>
                       <strong>{val.title + " "}</strong>
                       {
                         val.category !== null ? <span className="badge" style={this.badgeSuccess}>{val.category}</span> : <div></div>
                       }
                     </a>
                     <div>
-                      <a className="text-reset" href="#">
+                      <a className="text-reset" href={'/blog/' + val.link}>
                         {val.description}
                       </a>
                     </div>
