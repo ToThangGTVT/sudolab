@@ -4,7 +4,7 @@ import store2 from 'store2'
 import axios from "axios";
 import marked from 'marked';
 import { API_CONST } from "../../component/const/api";
-import Navbar from "../../component/nav-bar";
+import Navbar from "../../component/nabbar/nav-bar";
 import dynamic from 'next/dynamic'
 import hljs from "highlight.js";
 
@@ -39,7 +39,7 @@ export default class ContentBlog extends React.Component {
         <div className="container pb-5">
           <div className="row">
             <div className="col-md-8">
-              <div className="container py-3 round">
+              <div className="container py-3 round conent-blog mt-2">
                 <div dangerouslySetInnerHTML={{ __html: marked(this.props.content[0].content) }} />
               </div>
             </div>

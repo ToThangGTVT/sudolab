@@ -1,6 +1,6 @@
 import React from "react";
 import Head from 'next/head';
-import Navbar from "../component/nav-bar";
+import Navbar from "../component/nabbar/nav-bar";
 import NewPost from "../component/table/new-post";
 import Card from "../component/card/card";
 import Carosel from "../component/carosel/carosel";
@@ -25,7 +25,7 @@ export default class Index extends React.Component {
       newpost: resNewPost.data,
       category: resCategory.data,
       allPostMain: allPostMain.data,
-      totalPost: totalPost.data[0].total,
+      totalPost: totalPost.data[0].total / 10,
       page: page
     };
   }
