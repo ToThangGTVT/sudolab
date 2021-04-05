@@ -44,6 +44,7 @@ export default class Index extends React.Component {
           <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
           <script src="/tabler.min.js"></script>
           <link rel="stylesheet" href="/tabler.min.css" />
+          <script data-ad-client="ca-pub-8590525040934290" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
         <Navbar></Navbar>
         <div className="container pb-5">
