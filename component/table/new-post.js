@@ -24,7 +24,7 @@ export default class NewPost extends React.Component {
                   data.map((val, i) =>
                     <tr key={val.id}>
                       <td>{++i}</td>
-                      <td className="text-muted"><a href={'/blog/' + val.link} className="text-reset">{val.title}</a></td>
+                      <td className="text-muted"><a href={'/blog/' + val.link} className="text-reset"><b>{val.title}</b></a></td>
                       <td className="text-muted"><a href={'/blog/' + val.link} className="text-reset">{val.description}</a></td>
                       <td className="text-muted">{formatDate(val.create_date)}</td>
                     </tr>
