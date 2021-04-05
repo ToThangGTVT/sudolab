@@ -15,7 +15,6 @@ export default class NewPost extends React.Component {
                 <tr>
                   <th>#</th>
                   <th>Tiêu đề</th>
-                  <th>Nội dung chính</th>
                   <th style={{ width: 117, maxWidth: 117 }}>Ngày tạo</th>
                 </tr>
               </thead>
@@ -24,8 +23,11 @@ export default class NewPost extends React.Component {
                   data.map((val, i) =>
                     <tr key={val.id}>
                       <td>{++i}</td>
-                      <td className="text-muted"><a href={'/blog/' + val.link} className="text-reset"><b>{val.title}</b></a></td>
-                      <td className="text-muted"><a href={'/blog/' + val.link} className="text-reset">{val.description}</a></td>
+                      <td className="text-muted">
+                        <a href={'/blog/' + val.link} className="text-reset" data-toggle="tooltip" title={val.description}>
+                          {val.title}
+                        </a>
+                      </td>
                       <td className="text-muted">{formatDate(val.create_date)}</td>
                     </tr>
                   )

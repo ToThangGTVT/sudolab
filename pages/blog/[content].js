@@ -28,7 +28,7 @@ export default class ContentBlog extends React.Component {
     return (
       <div>
         <Head>
-          <title>Sudolab | Java Spring JS và nhiều hơn thế nữa</title>
+          <title>Sudolab | {this.props.content[0].title}</title>
           <meta property="og:title" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="title" />
           <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
           <script async src="/tabler.min.js"></script>

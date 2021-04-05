@@ -16,7 +16,7 @@ import ReactPaginate from 'react-paginate';
 export default class Index extends React.Component {
 
   static async getInitialProps({ query: { page = 1 } }) {
-    const resNewPost = await axios.get(API_CONST + '/post/new/5');
+    const resNewPost = await axios.get(API_CONST + '/post/new/3');
     const resCategory = await axios.get(API_CONST + '/category/all');
     const allPostMain = await axios.get(API_CONST + `/post/with-cat?page=${--page}&limit=10`);
     const totalPost = await axios.get(API_CONST + `/post/total`);
@@ -48,17 +48,17 @@ export default class Index extends React.Component {
         <Navbar></Navbar>
         <div className="container pb-5">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <Carosel></Carosel>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-9">
               <NewPost data={this.props.newpost}></NewPost>
               <Categories data={this.props.category}></Categories>
             </div>
           </div>
           <div className="row">
             <div className="col-md-8">
-              <h3 className="my-2 mx-2 pt-2">Danh sách bài viết</h3>
+              <h3 className="my-2 mx-2 pt-1">Danh sách bài viết</h3>
               <Content data={this.props.allPostMain}></Content>
               <div className="d-flex justify-content-center pt-3">
                 <ReactPaginate
@@ -83,7 +83,7 @@ export default class Index extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <h3 className="my-2 mx-2 text-center pt-2">Sudolab là gì</h3>
+              <h3 className="my-2 mx-2 text-center pt-1">Sudolab là gì</h3>
               <Card></Card>
             </div>
           </div>
