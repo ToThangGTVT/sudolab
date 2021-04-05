@@ -34,6 +34,7 @@ export default class ContentBlog extends React.Component {
           <script async src="/tabler.min.js"></script>
           <link async rel="stylesheet" href="/tabler.min.css" />
           <link async rel="stylesheet" href="/code.css" />
+          <script data-ad-client="ca-pub-8590525040934290" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
         <Navbar></Navbar>
         <div className="container pb-5">
