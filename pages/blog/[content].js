@@ -35,6 +35,9 @@ export default class ContentBlog extends React.Component {
           <link async rel="stylesheet" href="/tabler.min.css" />
           <link async rel="stylesheet" href="/code.css" />
           <script data-ad-client="ca-pub-8590525040934290" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script async custom-element="amp-auto-ads"
+             src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+          </script>
         </Head>
         <Navbar></Navbar>
         <div className="container pb-5">
