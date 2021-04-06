@@ -41,7 +41,8 @@ table {
 
 blockquote {
   padding-left: 15px !important;
-  border-left: 3px solid #e6e8e9 !important;
+  margin-left: 45px;
+  border-left: 4px solid #b7b7b7 !important;
 }
 
 pre {
