@@ -45,6 +45,9 @@ export default class Index extends React.Component {
           <script src="/tabler.min.js"></script>
           <link rel="stylesheet" href="/tabler.min.css" />
           <script data-ad-client="ca-pub-8590525040934290" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script async custom-element="amp-auto-ads"
+             src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+          </script>
         </Head>
         <Navbar></Navbar>
         <div className="container pb-5">
