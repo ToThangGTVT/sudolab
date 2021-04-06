@@ -39,6 +39,9 @@ export default class ContentBlog extends React.Component {
              src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
           </script>
         </Head>
+        <amp-auto-ads type="adsense"
+           data-ad-client="ca-pub-8590525040934290">
+        </amp-auto-ads>
         <Navbar></Navbar>
         <div className="container pb-5">
           <div className="row">
