@@ -46,7 +46,7 @@ export default class ContentBlog extends React.Component {
         <div className="container pb-5">
           <div className="row">
             <div className="col-md-8">
-              <div className="container py-3 round conent-blog mt-2">
+              <div className="container py-3 round conent-blog mt-2" style={{lineHeight: 1.8}}>
                 <div dangerouslySetInnerHTML={{ __html: marked(this.props.content[0].content) }} />
               </div>
             </div>
