@@ -65,7 +65,7 @@ export default class Index extends React.Component {
           </div>
           <div className="row">
             <div className="col-md-8">
-              <h3 className="my-2 mx-2 pt-1">Danh sách bài viết</h3>
+              <h3><strong> className="my-2 mx-2 pt-1">Danh sách bài viết</strong></h3>
               <Content data={this.props.allPostMain}></Content>
               <div className="d-flex justify-content-center pt-3">
                 <ReactPaginate
@@ -90,7 +90,7 @@ export default class Index extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <h3 className="my-2 mx-2 text-center pt-1">Sudolab là gì</h3>
+              <h3><strong> className="my-2 mx-2 text-center pt-1">Sudolab là gì</strong></h3>
               <Card></Card>
             </div>
           </div>
