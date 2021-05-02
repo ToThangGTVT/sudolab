@@ -15,7 +15,7 @@ export default class Navbar extends React.Component {
                 <a href="/">
                   <img src="/icon/logo.svg" width="32" height="32" alt="Tabler" className="navbar-brand-image px-2" />
                 </a>
-                SudoLAB
+                <a href="/" class="text-reset">SudoLAB</a>
               </h1>
               <div className="navbar-nav flex-row order-md-last">
 
