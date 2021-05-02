@@ -29,7 +29,7 @@ export default class ContentBlog extends React.Component {
       <div>
         <Head>
           <title>Sudolab | {this.props.content[0].title}</title>
-          <link rel="icon" href="/icon/logo.svg" type="image/icon type">
+          <link rel="icon" href="/icon/logo.svg" type="image/icon type"/>
           <meta property="og:title" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="title" />
           <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
           <script async src="/tabler.min.js"></script>
