@@ -24,9 +24,9 @@ export default class NewPost extends React.Component {
                     <tr key={val.id}>
                       <td>{++i}</td>
                       <td className="text-muted">
-                        <a href={'/blog/' + val.link} className="text-reset" data-toggle="tooltip" title={val.description}>
+                        <strong><h3><a href={'/blog/' + val.link} className="text-reset" data-toggle="tooltip" title={val.description}>
                           {val.title}
-                        </a>
+                        </a></h3></strong>
                       </td>
                       <td className="text-muted">{formatDate(val.create_date)}</td>
                     </tr>
