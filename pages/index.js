@@ -40,6 +40,7 @@ export default class Index extends React.Component {
       <div>
         <Head>
           <title>Sudolab | Java Spring JS và nhiều hơn thế nữa</title>
+          <link rel="icon" href="/icon/logo.svg" type="image/icon type">
           <meta property="og:title" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="title" />
           <meta property="og:description" content="Sudolab | Java Spring JS và nhiều hơn thế nữa" key="description" />
           <script src="/tabler.min.js"></script>
