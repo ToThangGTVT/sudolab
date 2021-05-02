@@ -7,7 +7,7 @@ export default class NewPost extends React.Component {
     const { data } = this.props
     return (
       <div>
-        <h3><strong>Các bài viết mới nhất</strong></h3>
+        <h2><strong>Các bài viết mới nhất</strong></h2>
         <div className="card">
           <div className="table-responsive" style={{ marginBottom: 0 }}>
             <table className="table table-vcenter card-table table-striped">
