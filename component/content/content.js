@@ -29,7 +29,7 @@ export default class Content extends React.Component {
                   </div>
                   <div className="col">
                     <a className="text-reset" href={'/blog/' + val.link}>
-                      <strong>{val.title + " "}</strong>
+                      <h3><strong>{val.title + " "}</strong></h3>
                       {
                         val.category !== null ? <span className="badge" style={this.badgeSuccess}>{val.category}</span> : <div></div>
                       }
