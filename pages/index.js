@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from "../component/nabbar/nav-bar";
 import NewPost from "../component/table/new-post";
 import Card from "../component/card/card";
+import CardBorderColor from "../component/card/card-border-color";
 import Carosel from "../component/carosel/carosel";
 import Categories from "../component/categories/categories";
 import Content from "../component/content/content";
@@ -20,9 +21,11 @@ export default class Index extends React.Component {
     const resCategory = await axios.get(API_CONST + '/category/all');
     const allPostMain = await axios.get(API_CONST + `/post/with-cat?page=${--page}&limit=10`);
     const totalPost = await axios.get(API_CONST + `/post/total`);
+    const topViewPost = await axios.get(API_CONST + `/post/top-view/3`);
 
     return {
       newpost: resNewPost.data,
+      topViewPost: topViewPost.data,
       category: resCategory.data,
       allPostMain: allPostMain.data,
       totalPost: totalPost.data[0].total / 10,
@@ -93,6 +96,8 @@ export default class Index extends React.Component {
             <div className="col-md-4">
               <h2><strong className="my-2 mx-2 text-center pt-1">Sudolab là gì</strong></h2>
               <Card></Card>
+              <h2 className="pt-3"><strong className="py-2 mx-2">Bài viết được xem nhiều nhất</strong></h2>
+              <CardBorderColor data={this.props.topViewPost}></CardBorderColor>
             </div>
           </div>
         </div>

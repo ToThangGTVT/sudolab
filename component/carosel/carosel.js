@@ -17,21 +17,18 @@ export default class Carosel extends React.Component {
               <img className="d-block w-100" alt="" src="./image/docker.png" />
               <div className="carousel-item-background d-none d-md-block"></div>
               <div className="carousel-caption d-none d-md-block pb-0">
-                <kbd>Docker container</kbd>
               </div>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" alt="" src="./image/linux.png" />
               <div className="carousel-item-background d-none d-md-block"></div>
               <div className="carousel-caption d-none d-md-block pb-0">
-                <kbd>Bash</kbd>
               </div>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" alt="" src="./image/shell.png" />
               <div className="carousel-item-background d-none d-md-block"></div>
               <div className="carousel-caption d-none d-md-block pb-0">
-                <kbd>Linux Shell</kbd>
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ export default class Content extends React.Component {
                         {val.description}
                       </a>
                     </div>
-                    <div className="text-muted mt-2">Ngày viết: {formatDate(val.create_date)}</div>
+                    <div className="text-muted mt-2">Ngày viết: {formatDate(val.create_date)} <span> - Lượt xem: {val.view}</span></div>
                   </div>
                 </div>
               )
