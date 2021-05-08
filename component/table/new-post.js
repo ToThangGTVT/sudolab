@@ -15,7 +15,7 @@ export default class NewPost extends React.Component {
                 <tr>
                   <th>#</th>
                   <th>Tiêu đề</th>
-                  <th style={{ width: 117, maxWidth: 117 }}>Ngày tạo</th>
+                  <th style={{ width: 117, maxWidth: 117 }}>Ngày viết</th>
                 </tr>
               </thead>
               <tbody>
