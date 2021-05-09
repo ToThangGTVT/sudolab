@@ -30,7 +30,7 @@ export default class Navbar extends React.Component {
                 </div>
                 <div className="nav-item">
                   <a href="/about-me" className="nav-link d-flex lh-1 text-reset p-0" aria-label="Open user menu">
-                    <span className="avatar avatar-sm">SU</span>
+                    <span className="avatar avatar-sm avatar-rounded">SU</span>
                     <div className="d-none d-xl-block ps-2">
                       <div>About me</div>
                     </div>

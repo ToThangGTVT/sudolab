@@ -25,7 +25,7 @@ export default class Content extends React.Component {
               data.map((val, i) =>
                 <div className="row">
                   <div className="col-auto">
-                    <span className="avatar">{val.title.substring(0, 2)}</span>
+                    <span className="avatar bg-green-lt">{val.title.substring(0, 2)}</span>
                   </div>
                   <div className="col">
                     <a className="text-reset" href={'/blog/' + val.link}>
